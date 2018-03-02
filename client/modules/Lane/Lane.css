@@ -1,1 +1,53 @@
 /* Lane styles */
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+
+.Lanes {
+  max-width: 980px;
+  width: 100%;
+  padding-top: 10px;
+  margin: 0 auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.Lane {
+  width: 30%;
+  padding: 15px;
+  margin: 0 15px 20px 0;
+  background: lightgreen;
+  box-shadow: 5px 5px 10px 2px #222;
+}
+
+.AddLane,
+.Lane button {
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 7px;
+  margin-top: 10px;
+  background: green;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+.LaneHeader {
+  padding: 10px 10px;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.LaneName {
+
+}
+
+.LaneAddNote {
+  margin-top: 15px;
+  border-top: 1px solid #eaeaea;
+}
+
+.LaneDelete button {
+  margin: 0 10px;
+
+}
