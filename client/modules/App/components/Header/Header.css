@@ -1,6 +1,5 @@
 .header {
-  background: #eee url('../../header-bk.png') center;
-  background-size: cover;
+  background-color: #000;
   border-bottom: 1px solid #ccc;
 }
 
@@ -33,16 +32,6 @@
   float: right;
 }
 
-.language-switcher {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.language-switcher ul {
-  list-style: none;
-  width: 980px;
-  margin: auto;
-  text-align: right;
-}
 
 .language-switcher li {
   display: inline-block;
